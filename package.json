@@ -1,0 +1,22 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "parte1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamarFlores/helloworld.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Tamar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TamarFlores/helloworld/issues"
+  },
+  "homepage": "https://github.com/TamarFlores/helloworld#readme"
+}
