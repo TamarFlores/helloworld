@@ -1,0 +1,43 @@
+<!DOCTYPE hmtl>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>problema1 do seminario</title>
+	</head>
+
+	<body>
+		
+	</body>
+
+    <script type="text/javascript">
+       
+        function allLongestStrings(inputArray) {
+			let nuevoArray = [];
+			let tamanio = 0
+
+			inputArray.forEach(e => {
+				if(e.length > tamanio){
+				tamanio = e.length;
+				}
+			});
+
+			inputArray.forEach(function(e){
+
+				if(e.length >= tamanio){
+					nuevoArray.push(e)
+				}
+
+			});
+
+
+
+			return nuevoArray;
+		}
+
+        
+        console.log(allLongestStrings(["enyky", 
+										"benyky", 
+										"yely", 
+										"varennyky"]));
+	</script>
+
+</html>
